@@ -1,0 +1,128 @@
+PROPS ---
+properties ..
+react props are like function arguments in javascript and attributes in html.
+1. Props are arguments passed into React components.
+2. Props are passed to components via HTML attributes.
+
+
+### PROPS -- recieve all argument as object
+function Card(props)  {
+    console.log(props) ;
+    return (
+        <>
+            <div className="card">
+                <img src={props.imgsrc} alt="" />
+                <h2>{props.title}</h2>
+                <h4>{props.series_name}</h4>
+                <h4><a href={props.link}>Watch Now</a></h4>
+            </div>
+        </>
+    )
+}
+
+<Card 
+    imgsrc="paste-image-link" 
+    title = "series-title"
+    series_name = "series-name"
+    link = "link-paste"
+/>
+
+
+### JavaScript Array Map Method
+
+
+
+
+### React Conditional Rendering
+
+
+
+REACT HOOKS --
+Built-in React Hooks
+Hooks let you use different React features from your components. 
+You can either use the built-in Hooks or combine them to build your own. 
+This page lists all built-in Hooks in React.
+
+State Hooks 
+State lets a component “remember” information like user input. For example, a form component can use state to store the input value, while an image gallery component can use state to store the selected image index.
+
+To add state to a component, use one of these Hooks:
+
+useState declares a state variable that you can update directly.
+useReducer declares a state variable with the update logic inside a reducer function.
+
+
+
+
+
+
+NPM -- Node Package Manager
+-- world's largest software registry
+-- contains over 800000 code packages
+-- open-source developer use npm to share 
+
+All npm packages are defined in file known as package.json
+at least 2 value -- name and version
+npm includes CLI (command line client) that can be used to download and install software
+npm can manage dependencies.
+
+
+
+
+
+
+
+
+#### React Router in reactJS
+client-side rendering 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
